@@ -25,22 +25,30 @@ export const ProductCatalog = () => {
           {config.products.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-lg border border-[#E6EAEB] overflow-hidden flex flex-col justify-between hover:border-[#07565A]/40 transition-colors"
+              className="bg-white rounded-lg border border-[#E6EAEB] overflow-hidden flex flex-col justify-between hover:border-[#07565A]/40 transition-colors group"
             >
               <div>
                 {/* One Product Image with consistent dimensions */}
-                <div className="bg-[#F5F7F7] p-6 h-64 flex items-center justify-center border-b border-[#E6EAEB]">
+                <div className="bg-[#F5F7F7] p-6 h-80 flex items-center justify-center border-b border-[#E6EAEB] overflow-hidden">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="max-h-52 w-auto object-contain"
+                    className="max-h-72 w-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
                     loading="lazy"
                   />
                 </div>
 
-                {/* Content: Title & Short Description (Max 2 lines) */}
+                {/* Content: Badges, Title & Short Description */}
                 <div className="p-6">
-                  <h3 className="text-lg font-bold text-[#07565A] mb-2">
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className="text-[11px] font-bold text-[#F47716] uppercase tracking-wider bg-[#F47716]/10 px-2.5 py-0.5 rounded">
+                      {product.category || 'Silicone Sealant'}
+                    </span>
+                    <span className="text-xs font-mono font-bold text-[#07565A] bg-[#07565A]/10 px-2 py-0.5 rounded">
+                      300 ml
+                    </span>
+                  </div>
+                  <h3 className="text-lg font-bold text-[#07565A] mb-2 leading-snug">
                     {product.name}
                   </h3>
                   <p className="text-xs text-[#263536]/80 line-clamp-2 leading-relaxed">
@@ -55,7 +63,7 @@ export const ProductCatalog = () => {
                   onClick={() => setSelectedProduct(product)}
                   className="w-full py-2.5 px-4 rounded-md border border-[#07565A] text-[#07565A] hover:bg-[#07565A] hover:text-white text-xs font-semibold tracking-wide transition-colors"
                 >
-                  View Details
+                  View Details & TDS
                 </button>
               </div>
             </div>
@@ -91,7 +99,7 @@ export const ProductCatalog = () => {
               <img
                 src={selectedProduct.image}
                 alt={selectedProduct.name}
-                className="max-h-48 object-contain"
+                className="max-h-56 object-contain drop-shadow-sm"
               />
             </div>
 

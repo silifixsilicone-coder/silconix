@@ -49,13 +49,13 @@ export const Hero = () => {
 
           </div>
 
-          {/* Right Side: ONE large, high-quality cartridge image on clean background */}
+          {/* Right Side: High-quality SILCONIX product lineup on clean background */}
           <div className="lg:col-span-6 flex justify-center lg:justify-end">
-            <div className="w-full max-w-md bg-[#F5F7F7] rounded-xl p-6 sm:p-8 border border-[#E6EAEB] flex items-center justify-center">
+            <div className="w-full max-w-lg bg-[#F5F7F7] rounded-xl p-4 sm:p-6 border border-[#E6EAEB] flex items-center justify-center">
               <img
-                src="/images/siliconix-gp.jpg"
-                alt="SILICONIX Silicone Sealant Cartridge"
-                className="max-h-[380px] w-auto object-contain"
+                src="/images/silconix-lineup.png"
+                alt="SILCONIX Silicone Sealant Product Range (AS, WP, SC)"
+                className="max-h-[380px] w-auto object-contain drop-shadow-sm hover:scale-[1.02] transition-transform duration-300"
                 loading="eager"
               />
             </div>

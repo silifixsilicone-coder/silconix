@@ -5,12 +5,12 @@ export const ApplicationsSection = () => {
   const { config } = useConfig();
 
   const applicationsList = [
-    { title: "Aluminium Windows & Doors", img: "/images/siliconix-gp.jpg" },
-    { title: "Glass Installation", img: "/images/siliconix-glazing.jpg" },
-    { title: "Construction Joints", img: "/images/siliconix-neutral.jpg" },
-    { title: "Roofing Applications", img: "/images/siliconix-gp.jpg" },
-    { title: "Tiles & Joints", img: "/images/siliconix-sanitary.jpg" },
-    { title: "General Maintenance", img: "/images/siliconix-oem.jpg" }
+    { title: "Aluminium Windows & Doors", img: "/images/silconix-sc.png", subtitle: "Multi-surface adhesion" },
+    { title: "Glass & Glazing Work", img: "/images/silconix-as.png", subtitle: "All-weather protection" },
+    { title: "Exterior Construction Joints", img: "/images/silconix-wp.png", subtitle: "Heavy-duty flexible seal" },
+    { title: "Roofing & Gutters", img: "/images/silconix-wp.png", subtitle: "Waterproof & UV resistant" },
+    { title: "Tiles & Masonry Joints", img: "/images/silconix-sc.png", subtitle: "Long-lasting bonding" },
+    { title: "Industrial & General Use", img: "/images/silconix-as.png", subtitle: "Anti-fungal & durable" }
   ];
 
   return (

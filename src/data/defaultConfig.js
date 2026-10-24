@@ -24,42 +24,48 @@ export const defaultConfig = {
   ],
   products: [
     {
-      id: "gp-silicone",
-      name: "SILICONIX General Purpose Silicone Sealant",
-      category: "General Purpose",
-      image: "/images/siliconix-gp.jpg",
-      shortDesc: "High modulus 100% silicone sealant for durable bonding in aluminium windows, glass glazing, and general construction.",
+      id: "silconix-sc",
+      name: "SILCONIX SC General Purpose Silicone Sealant",
+      category: "Multi Surface Use",
+      code: "SC",
+      image: "/images/silconix-sc.png",
+      shortDesc: "High-grade 100% silicone sealant for multi-surface bonding in windows, roofs, tiles, and construction joints.",
       specs: {
+        "Product Code": "SC",
         "Base": "100% Silicone Polymer",
-        "Packaging": "280ml / 300ml Cartridges",
-        "Skin Time": "10 - 15 minutes",
-        "Temperature": "-40°C to +150°C"
+        "Volume": "300 ml Cartridge",
+        "Ideal For": "Windows, Roofs, Tiles, Joints",
+        "Performance": "Strong Adhesion, Weather Resistant, Flexible & Durable"
       }
     },
     {
-      id: "weatherproof-glazing",
-      name: "SILICONIX Weatherproof & Glazing Sealant",
-      category: "Architectural",
-      image: "/images/siliconix-glazing.jpg",
-      shortDesc: "Architectural grade neutral silicone sealant engineered for external weatherproofing, curtain walling, and glass facades.",
+      id: "silconix-as",
+      name: "SILCONIX AS Acetic Weatherproof Sealant",
+      category: "Weatherproof",
+      code: "AS",
+      image: "/images/silconix-as.png",
+      shortDesc: "All-weather protection acetic silicone sealant engineered with anti-fungal properties and UV-resistant bonding.",
       specs: {
-        "Base": "Neutral Cure Silicone",
-        "Packaging": "300ml / 310ml Cartridges",
-        "Joint Movement": "±25% Capability",
-        "Temperature": "-50°C to +150°C"
+        "Product Code": "AS",
+        "Base": "100% Acetic Silicone",
+        "Volume": "300 ml Cartridge",
+        "Protection": "All Weather & UV Resistant",
+        "Performance": "Anti-Fungal, Strong Bond, Water Resistant"
       }
     },
     {
-      id: "neutral-weatherproof",
-      name: "SILICONIX Neutral Weatherproof Silicone",
-      category: "Non-Corrosive",
-      image: "/images/siliconix-neutral.jpg",
-      shortDesc: "Non-corrosive neutral cure sealant formulated specifically for ACP cladding, stone masonry, and metal joints.",
+      id: "silconix-wp",
+      name: "SILCONIX WP Acetic Weatherproof Sealant",
+      category: "Weatherproof Architectural",
+      code: "WP",
+      image: "/images/silconix-wp.png",
+      shortDesc: "Heavy-duty exterior weatherproof silicone sealant delivering superior sealing for roofs, exterior joints, and frames.",
       specs: {
-        "Base": "100% Neutral Silicone",
-        "Packaging": "300ml Cartridges",
-        "Compatibility": "Non-staining, non-corrosive",
-        "Temperature": "-40°C to +140°C"
+        "Product Code": "WP",
+        "Base": "100% Silicone",
+        "Volume": "300 ml Cartridge",
+        "Ideal For": "Roofs, Exterior Joints, Window Frames, Gutters & Drainage",
+        "Performance": "Anti-Fungal, High Elasticity, UV Resistant"
       }
     }
   ],
