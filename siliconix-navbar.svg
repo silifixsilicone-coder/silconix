@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 120" width="100%" height="100%">
+  <!-- Wordmark -->
+  <g transform="skewX(-13.5) translate(29.700000000000003, 0)">
+    
+    <!-- S -->
+    <path fill="#F47716" fill-rule="evenodd" d="
+      M 46 20
+      L 98 20
+      L 98 42
+      L 56 42
+      L 56 50
+      L 86 50
+      Q 98 50 98 62
+      L 98 90
+      Q 98 100 84 100
+      L 30 100
+      L 30 76
+      L 72 76
+      L 72 68
+      L 42 68
+      Q 30 68 30 56
+      L 30 32
+      Q 30 20 46 20
+      Z
+    " />
+  
+    <!-- I (Custom Cut) -->
+    <path fill="#F47716" d="
+      M 119 20
+      L 131 20
+      L 131 100
+      L 109 100
+      L 109 32
+      Z
+    " />
+  
+    <!-- L -->
+    <path fill="#F47716" d="
+      M 142 20
+      L 164 20
+      L 164 78
+      L 198 78
+      L 198 100
+      L 142 100
+      Z
+    " />
+  
+      <!-- I -->
+      <rect x="209" y="20" width="22" height="80" fill="#F47716" />
+    
+    <!-- C -->
+    <path fill="#F47716" d="
+      M 256 20
+      L 310 20
+      L 310 42
+      L 264 42
+      L 264 78
+      L 310 78
+      L 310 100
+      L 256 100
+      Q 242 100 242 86
+      L 242 34
+      Q 242 20 256 20
+      Z
+    " />
+  
+    <!-- O -->
+    <path fill="#F47716" fill-rule="evenodd" d="
+      M 335 20
+      L 379 20
+      Q 393 20 393 34
+      L 393 86
+      Q 393 100 379 100
+      L 335 100
+      Q 321 100 321 86
+      L 321 34
+      Q 321 20 335 20
+      Z
+      M 343 42
+      L 371 42
+      L 371 78
+      L 343 78
+      Z
+    " />
+  
+    <!-- N -->
+    <path fill="#F47716" d="
+      M 404 20
+      L 426 20
+      L 456 72
+      L 456 20
+      L 478 20
+      L 478 100
+      L 456 100
+      L 426 46
+      L 426 100
+      L 404 100
+      Z
+    " />
+  
+    <!-- I (Deep Teal) -->
+    <rect x="492" y="20" width="22" height="80" fill="#07565A" />
+  
+    <!-- X (Deep Teal with Industrial Slash Gap) -->
+    <g fill="#07565A">
+      <!-- Diagonal 1: Top-Left to Bottom-Right -->
+      <polygon points="
+        525,20 
+        550,20 
+        603,100 
+        578,100
+      " />
+      
+      <!-- Diagonal 2: Top-Right Segment -->
+      <polygon points="
+        578,20 
+        603,20 
+        580,52 
+        562,52
+      " />
+
+      <!-- Diagonal 2: Bottom-Left Segment -->
+      <polygon points="
+        566,68 
+        548,68 
+        525,100 
+        550,100
+      " />
+    </g>
+  
+  </g>
+  
+</svg>
